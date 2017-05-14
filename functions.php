@@ -228,14 +228,14 @@ add_action( 'widgets_init', 'causes_sidebars' );
 if (!function_exists('causes_custom_styles')) {
 		function causes_custom_styles() {
 
-			$main_color = "#3391ad";
-			$second_color = "#e7d569";
+			$main_color = "#3391AD";
+			$second_color = "#E7D569";
 			$third_color = "#353535";
 			$background_color = "#f7f7f7";
-	    $main_color = esc_attr(get_theme_mod('pwt_ceneral_color', '#3391ad'));
-			$second_color = esc_attr(get_theme_mod('pwt_second_color', '#e7d569'));
-			$third_color = esc_attr(get_theme_mod('pwt_third_color', '#353535'));
-			$background_color = esc_attr(get_theme_mod('background-color', '#f7f7f7'));
+	    $main_color = esc_attr(get_theme_mod('pwt_ceneral_color', $main_color));
+			$second_color = esc_attr(get_theme_mod('pwt_second_color', $second_color));
+			$third_color = esc_attr(get_theme_mod('pwt_third_color', $third_color));
+			$background_color = esc_attr(get_theme_mod('background-color', $background_color));
 
 			//ob_start();
 
@@ -329,6 +329,8 @@ function wps_add_login_logout_link($items, $args) {
 
     $login = __('Log-in');
     $logout = __('Log-out');
+
+		$redirect = my_login_logo_url();
 
     //use one of the following methods of identification
     $menu_id = '20';
