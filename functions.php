@@ -229,8 +229,8 @@ if (!function_exists('causes_custom_styles')) {
 		function causes_custom_styles() {
 
 			$main_color = "#3391AD";
-			$second_color = "#E7D569";
-			$third_color = "#353535";
+			$second_color = "#3391AD";
+			$third_color = "#E7D569";
 			$background_color = "#f7f7f7";
 	    $main_color = esc_attr(get_theme_mod('pwt_ceneral_color', $main_color));
 			$second_color = esc_attr(get_theme_mod('pwt_second_color', $second_color));
