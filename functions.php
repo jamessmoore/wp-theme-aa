@@ -230,8 +230,8 @@ if (!function_exists('causes_custom_styles')) {
 
 			$main_color = "#3391AD";
 			$second_color = "#3391AD";
-			$third_color = "#E7D569";
-			$background_color = "#f7f7f7";
+			$third_color = "#353535";
+			$background_color = "#FFFFFF";
 	    $main_color = esc_attr(get_theme_mod('pwt_ceneral_color', $main_color));
 			$second_color = esc_attr(get_theme_mod('pwt_second_color', $second_color));
 			$third_color = esc_attr(get_theme_mod('pwt_third_color', $third_color));
@@ -292,7 +292,7 @@ function my_login_logo() { ?>
         .login h1 a {
         background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png);
         -webkit-background-size: 164px;
-        background-size: 164px;
+        background-size: 110px;
         background-position: center top;
         background-repeat: no-repeat;
         height:132px;
@@ -300,7 +300,7 @@ function my_login_logo() { ?>
         line-height: 1.3em;
         margin: 0 auto 25px;
         padding: 0;
-        width: 164px;
+        width: 110px;
         text-indent: -9999px;
         outline: 0;
         display: block;
