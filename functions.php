@@ -99,6 +99,10 @@ if( ! function_exists( 'causes_theme_setup' ) ) {
 		// Add CSS for the TinyMCE editor
 		add_editor_style();
 
+		// Set the front page
+		$front_page = get_page_by_title( 'Adjusting Alternatives, LLC.' );
+		update_option( 'page_on_front', $front_page->ID );
+		update_option( 'show_on_front', 'page' );
 
 	}
 	add_action( 'after_setup_theme', 'causes_theme_setup' );
