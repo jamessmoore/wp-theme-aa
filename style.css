@@ -1697,6 +1697,12 @@ margin-bottom: 15px;
 .article-single p {
 margin-bottom: 25px;
 }
+.article-single ul {
+  list-style-image: url(wp-content/themes/aa-2017/assets/images/list_marker.jpg);
+  list-style-type: square;
+  list-style-position: outside;
+  vertical-align: middle;
+}
 .article-single .meta_tags {
 margin-top: 25px;
 padding: 16px;
