@@ -2109,6 +2109,10 @@ label.file_messageblock_filesubheader_messagelabel {
     margin: 20px;
     margin-top: 10px;
     margin-bottom: 35px;
+    list-style-image: url(wp-content/themes/wp-theme-aa-master/assets/images/list_marker.jpg);
+    list-style-type: square;
+    list-style-position: outside;
+    vertical-align: middle;
 }
 .article-single ul li {
     line-height: 1.6;
