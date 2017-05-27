@@ -1335,7 +1335,10 @@ text-transform: none;
 
 		/**  menu-secure  **/
 .menu-secure-container ol, .menu-secure-container ul {
-    list-style-type: none;
+  list-style-image: url(wp-content/themes/aa-2017/assets/images/list_marker.jpg);
+  list-style-type: square;
+  list-style-position: outside;
+  vertical-align: middle;
 }
 .menu-secure-container {
 
