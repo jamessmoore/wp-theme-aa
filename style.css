@@ -109,7 +109,12 @@ input[type=submit] {
 @-ms-viewport{
 width: device-width;
 }
-
+UL {
+  list-style-image: url(wp-content/themes/wp-theme-aa-master/assets/images/list_marker.jpg);
+  list-style-type: square;
+  list-style-position: outside;
+  vertical-align: middle;
+}
 /**  grid system  **/
 .clear{
 display: block;
