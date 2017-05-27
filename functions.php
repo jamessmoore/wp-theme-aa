@@ -330,6 +330,8 @@ function wps_add_login_logout_link($items, $args) {
     $login = __('Log-in');
     $logout = __('Log-out');
 
+		$redirect = my_login_logo_url();
+
     //use one of the following methods of identification
     $menu_id = '20';
     $menu_name = 'top-menu'; //name you gave to the menu
